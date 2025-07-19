@@ -32,7 +32,7 @@ const JobList = () => {
     };
 
     fetchJobs();
-  }, []);
+  }, [BASE_URL ]);
 
   return (
     <div className="container mt-4">

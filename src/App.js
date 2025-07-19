@@ -26,6 +26,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar  showAlert={showAlert}/>
+       {alert && <Alert msg={alert.msg} type={alert.type} />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Signup" element={<Signup />} />

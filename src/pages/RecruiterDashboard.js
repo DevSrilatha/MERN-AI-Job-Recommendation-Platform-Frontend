@@ -18,7 +18,7 @@ const RecruiterDashboard = () => {
 
   useEffect(() => {
     fetchJobs();
-  }, []);
+  }, [BASE_URL]);
 
   const fetchJobs = async () => {
     try {
