@@ -12,6 +12,8 @@ import Chat from "./pages/chat";
 import { useParams } from "react-router-dom";
 import React,{useState} from 'react';
 import Alert from './components/Alert';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   const [alert, setAlert] = useState(null);
   const showAlert = (message, type)=>{
